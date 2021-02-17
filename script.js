@@ -60,7 +60,7 @@ function addBookToDOM(book) {
     const buttonStatus = document.createElement("button")
     buttonStatus.classList.add("status")
     buttonStatus.id = book.id+"Status"
-    buttonStatus.textContent = (book.status) ? "Read" : "Not Read"
+    buttonStatus.textContent = (book.status == true) ? "Read" : "Not Read"
     buttonStatus.addEventListener("click", function() {
         toggleStatus(book)
     });
@@ -85,8 +85,8 @@ function addBookToDOM(book) {
 }
 
 function toggleStatus(book) {
-    book.status = book.status ? false : true
-    document.getElementById(book.id+"Status").textContent = book.status ? "Read" : "Not Read"
+    book.status = (book.status == true) ? false : true
+    document.getElementById(book.id+"Status").textContent = (book.status == true) ? "Read" : "Not Read"
 }
 
 function deleteBook(book) {
