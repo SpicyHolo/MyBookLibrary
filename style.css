@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 40px auto auto auto;
+
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #222;
+}  
+
+.Table {
+    display: table;
+    margin: auto;
+}
+
+.Title {
+    display: table-caption;
+    text-align: left;
+}
+
+h1 {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.Heading
+{
+    display: table-row;
+    font-weight: bold;
+}
+.Row
+{
+    display: table-row
+    
+}
+.Cell
+{
+    display: table-cell;
+    padding: 5px;
+    border-bottom: thin solid lightgray;
+    width: 200px;
+    
+}
+
+.form {
+    padding: 5px 5px 0px 5px;
+    border: 0;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+.input {
+    width: 250px;
+    font-size: 14px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    outline: 0;
+    height: 28px;
+    padding: 5px 10px 5px 10px;
+}
+
+input:focus {
+    border: 1px solid lightskyblue;
+}
+
+.pages {
+    width: 80px;
+}
+.select {
+    background-color: white;
+    height: 40px;
+    width: 120px;
+}
+
+.button {
+    background-color: #33C3F0;
+    border: 1px solid #33C3F0;
+    border-radius: 5px;
+    outline: 0;  
+    color: white;
+    font-size: 14px;
+    padding: 5px 30px 5px 30px; 
+}
+
+.button:hover {
+    background-color: #2db1da;
+    border: 1px solid #2db1da;
+}
+
+div#shelf > div > div {
+    width: 200px;
+    margin: 4px 0px 4px 0px;
+    font-size: 16px;
+}
+
+.status {
+    background-color: white;
+    border: 1px solid #33C3F0;
+    border-radius: 5px;
+    outline: 0;  
+    color: #33C3F0;
+    font-size: 14px;
+    padding: 0px 30px 0px 30px; 
+}
+
+.delete {
+    background-color:   rgb(255, 0, 140);
+    border: 1px solid rgb(255, 0, 140);
+    border-radius: 5px;
+    outline: 0;  
+    color: white;
+    font-size: 14px;
+    padding: 5px 30px 5px 30px;     
+}
